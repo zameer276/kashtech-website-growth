@@ -5,11 +5,13 @@ const Footer = () => (
     <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
       <div>
         <h3 className="font-heading text-xl font-bold gradient-text inline-block">KashTech Solution</h3>
-        <p className="text-muted-foreground text-sm mt-1">Building premium websites for your business.</p>
+        <p className="text-muted-foreground text-sm mt-1">Srinagar, Kashmir — 193403</p>
       </div>
-      <div className="flex items-center gap-6 text-sm text-muted-foreground">
+      <div className="flex flex-wrap items-center gap-6 text-sm text-muted-foreground">
+        <a href="#about" className="hover:text-primary transition-colors">About</a>
         <a href="#services" className="hover:text-primary transition-colors">Services</a>
         <a href="#pricing" className="hover:text-primary transition-colors">Pricing</a>
+        <a href="#contact" className="hover:text-primary transition-colors">Contact</a>
         <a
           href="https://wa.me/919682625931"
           target="_blank"

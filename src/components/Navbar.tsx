@@ -13,7 +13,9 @@ const Navbar = () => {
 
         <div className="hidden md:flex items-center gap-8 text-sm">
           <a href="#services" className="text-muted-foreground hover:text-foreground transition-colors">Services</a>
+          <a href="#about" className="text-muted-foreground hover:text-foreground transition-colors">About</a>
           <a href="#pricing" className="text-muted-foreground hover:text-foreground transition-colors">Pricing</a>
+          <a href="#contact" className="text-muted-foreground hover:text-foreground transition-colors">Contact</a>
           <a
             href={WHATSAPP_URL}
             target="_blank"
@@ -34,7 +36,9 @@ const Navbar = () => {
       {open && (
         <div className="md:hidden bg-background border-b border-border px-4 pb-4 space-y-3">
           <a href="#services" onClick={() => setOpen(false)} className="block text-muted-foreground hover:text-foreground transition-colors py-2">Services</a>
+          <a href="#about" onClick={() => setOpen(false)} className="block text-muted-foreground hover:text-foreground transition-colors py-2">About</a>
           <a href="#pricing" onClick={() => setOpen(false)} className="block text-muted-foreground hover:text-foreground transition-colors py-2">Pricing</a>
+          <a href="#contact" onClick={() => setOpen(false)} className="block text-muted-foreground hover:text-foreground transition-colors py-2">Contact</a>
           <a
             href={WHATSAPP_URL}
             target="_blank"
